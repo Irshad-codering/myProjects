@@ -127,19 +127,19 @@ body{
     .outer-div{
         margin-left : 70px;
         width : 12rem;
-        height : 24rem;
+        height : 28rem;
         font-size : 0.2rem;
     }
     .notch{
-        margin-left: 5vh;
+        margin-left: 4vh;
     }
     .notch-cam{
-        margin-left: 10vh;
+        margin-left: 9vh;
         width : 1.6vh;
         height  :1.67vh;
     }
     .display-output{
-        font-size:1.5rem;
+        font-size:2rem;
     }
     .btn{
         font-size: 1rem;
