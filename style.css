@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin : 0;
+    color : rgb(0,0,0);
+    font-family:Poppins;
+}
+
+body{
+    margin : 2%;
+    background : #040D12
+}
+.section-title{
+    position : relative;
+    height: 10vh;
+    background : #183D3D;
+}
+.title{
+    position : absolute;
+    left : 45%;
+    top : 25%;
+}
+.outer-div{
+    border : 1vh solid rgb(0,0,0);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    margin-top: 3rem;
+    margin-left : 35rem;
+    width : 17rem;
+    height : 34rem;
+    background-color: #ffffff;
+    box-shadow : 0 0 14px #b0aaaa;
+}
+.output-display{
+    display : grid ;
+    grid-template-rows: 2.0fr 1fr;
+    margin :2.4%;
+    border-radius: 2rem;
+}
+.notch{
+    margin-left : 9vh;
+    background : rgb(0, 0, 0);
+    width : 110px;
+    height  :2vh;
+    border-radius : 1vh;
+}
+.notch-cam{
+    margin-top : .15vh;
+    margin-left : 12.4vh;
+    background : rgb(123, 111, 111);
+    width : 1.7vh;
+    height  :1.76vh;
+    border-radius : 50%;
+}
+.display-1{
+    background-color: rgb(6, 109, 89);
+    width: 94%;
+    height : 7vh;
+    border-radius : 1vh;
+    margin : 1%;
+}
+.display-output{
+    font-size: 2.5rem;
+    margin-left : 0.3rem;
+}
+.inner-blueprint{
+    margin: 10%;
+    display:grid;
+    gap: 1ch;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.inner-content{
+    cursor: pointer;
+    display:grid;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius : 1vh;    
+    border-bottom : 0;
+    background-color: gray;
+}
+.inner-content:active{
+    opacity:0.6;
+}
+.btn{
+    background-color: #ff0000;
+    border-radius: 0.5rem;
+    border : none
+}
+.operator {
+    border-radius: 1vh;
+    border: 0;
+    background-color: orange;
+
+}
+.btn-style{
+    font-weight : bold;
+}
+.btn-size{
+    font-size : 1rem;
+}
+
+@media (max-width : 480px) {
+    body{
+        background : red; 
+        margin:0;
+        height : 100%;
+        width : 100%;
+    }
+    .section-title{
+        display : flex;
+        justify-content: center;
+        position: unset;
+        align-items: center;
+        margin-top: 10px;
+        margin-left : 90px;
+        FONT-SIZE : 2vh;
+        height : 8vh;
+        border-radius : 1.5vh;
+        width : 160px;
+    }
+    .title{
+        position: unset;
+    }
+    .outer-div{
+        margin-left : 70px;
+        width : 12rem;
+        height : 24rem;
+        font-size : 0.2rem;
+    }
+    .notch{
+        margin-left: 5vh;
+    }
+    .notch-cam{
+        margin-left: 16.2vh;
+        width : 1.6vh;
+        height  :1.67vh;
+    }
+    .display-output{
+        font-size:1.5rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+}
